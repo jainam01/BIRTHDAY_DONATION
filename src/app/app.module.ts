@@ -11,6 +11,7 @@ import { FAQComponent } from './pages/faq/faq.component';
 import { CONTACTUSComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/signup/login/login.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { LoginComponent } from './pages/signup/login/login.component';
     DonationComponent,
     FAQComponent,
     CONTACTUSComponent,
-    LoginComponent
+    LoginComponent,
+    
   ],
   imports: [
     BrowserModule,

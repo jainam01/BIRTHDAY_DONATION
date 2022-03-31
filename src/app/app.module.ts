@@ -10,7 +10,9 @@ import { DonationComponent } from './pages/donation/donation.component';
 import { FAQComponent } from './pages/faq/faq.component';
 import { CONTACTUSComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/signup/login/login.component';
-import { CardsComponent } from './pages/home/card/cards/cards.component';
+import { AboutThisWebsiteComponent } from './pages/about-this-website/about-this-website.component';
+import { SignupComponent } from './pages/signup/login/signup/signup/signup.component';
+
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { CardsComponent } from './pages/home/card/cards/cards.component';
     FAQComponent,
     CONTACTUSComponent,
     LoginComponent,
-    CardsComponent,
+    AboutThisWebsiteComponent,
+    SignupComponent,
     
   ],
   imports: [

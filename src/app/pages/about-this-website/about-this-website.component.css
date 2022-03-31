@@ -1,0 +1,48 @@
+.how-it-works_stepWrapper__1Xof_ {
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 16px;
+}
+
+.how-it-works_stepHeading__VVyYp {
+    width: 100%;
+    text-align: center;
+    color: #423b7d;
+    letter-spacing: 1px;
+    padding-top: 7px;
+}
+
+.how-it-works_stepImg__Pt5dY {
+    width: 41%;
+    align-self: center;
+    text-align: right;
+}
+
+.how-it-works_stepSeparator__188av {
+    content: " ";
+    width: 18%;
+    background-image: url(../../../assets/image/dot.png);
+    background-repeat: repeat-y;
+    background-size: auto 100%;
+    background-position: 50%;
+}
+
+.how-it-works_stepContentWrapper__2rNB2 {
+    width: 41%;
+    align-self: center;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.how-it-works_stepImg__Pt5dY {
+    width: 41%;
+    align-self: center;
+    text-align: right;
+}
+
+.how-it-works_stepImg__Pt5dY img {
+    max-width: 250px;
+}

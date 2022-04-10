@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutThisWebsiteComponent implements OnInit {
 
+  donors = false;
   constructor() { }
 
   ngOnInit(): void {

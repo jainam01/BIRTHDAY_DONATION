@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {MatTabsModule} from '@angular/material/tabs'; 
 @Component({
   selector: 'app-about-this-website',
   templateUrl: './about-this-website.component.html',
@@ -13,4 +13,15 @@ export class AboutThisWebsiteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  donorsClicked(){
+    this.donors = true;
+  }
+
+  campaignersClicked(){
+    this.donors = false;
+  }
+
+  // getLinkState(){
+  //   return this.donors?'nav-link active' : 'nav-link';
+  // }
 }

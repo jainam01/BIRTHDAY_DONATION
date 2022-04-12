@@ -12,11 +12,13 @@ import { CONTACTUSComponent } from './pages/contact-us/contact-us.component';
 import { LoginComponent } from './pages/signup/login/login.component';
 import { AboutThisWebsiteComponent } from './pages/about-this-website/about-this-website.component';
 import { SignupComponent } from './pages/signup/login/signup/signup/signup.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 @NgModule({
   declarations: [
+
     AppComponent,
     NavigationComponent,
     FooterComponent,
@@ -27,11 +29,13 @@ import { SignupComponent } from './pages/signup/login/signup/signup/signup.compo
     LoginComponent,
     AboutThisWebsiteComponent,
     SignupComponent,
-    
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTabsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
